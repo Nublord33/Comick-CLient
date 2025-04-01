@@ -3,7 +3,7 @@
 // @namespace    https://violentmonkey.github.io
 // @version      0.1
 // @description  Comick Client (Alpha)
-// @author       You
+// @author       Nublord33/SkibidiSKid(joke name)
 // @match        https://comick.io/*
 // @grant        none
 // ==/UserScript==
