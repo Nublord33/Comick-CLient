@@ -3,10 +3,12 @@ this project is currently in beta
 
 ### Roadmap
 
-- [ ] More Efficient Styling
+- [ ] More efficient styling
 - [ ] Reduce file sizes
 - [ ] Add a gui
-- [ ] get possible chrome extension published
-- [ ] rewrite comick-to-anilist to js 
+- [ ] Get possible chrome extension published
+- [ ] Rewrite comick-to-anilist to js
+- [ ] More battle testing for mobile and other browsers
+- [ ] Improve code structure and js skills
 
 
