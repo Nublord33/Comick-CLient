@@ -34,7 +34,7 @@
     const SCROLLBOX_CLASS_1 = '.scrollbox.dark\\:scrollbox-dark.mt-3.mb-3.flex.flex-wrap.max-h-32.md\\:max-h-48.xl\\:max-h-48.overflow-y-auto.items-center.scrollbar-thin.scrollbar-thumb-gray-300.scrollbar-track-gray-100.dark\\:scrollbar-thumb-gray-600.dark\\:scrollbar-track-gray-700.scrollbar-thumb-rounded';
     const SCROLLBOX_CLASS_2 = '.flex.items-center.max-w-max.overflow-x-auto.scrollbox.dark\\:scrollbox-dark.scrollbar-thin.scrollbar-thumb-gray-300.scrollbar-track-gray-100.dark\\:scrollbar-thumb-gray-600.dark\\:scrollbar-track-gray-700.scrollbar-thumb-rounded.space-x-3';
 
-    // Helper: Set solid background and remove background image if not an image.
+    //Set solid background and remove background image if not an image.
     function setSolidBackground(element, color) {
         element.style.backgroundColor = color;
         if (element.tagName.toLowerCase() !== 'img') {
@@ -44,12 +44,12 @@
 
     // Helper: Set color for <path> elements with fill-rule="evenodd" and clip-rule="evenodd"
     function setIconColorForPaths() {
-        document.querySelectorAll('path[fill-rule="evenodd"][clip-rule="evenodd"]').forEach(path => {
-            path.style.fill = ICON_COLOR; // Apply the icon color to all matching paths
-        });
-    }
+    document.querySelectorAll('path').forEach(path => {
+        path.style.color = ICON_COLOR; // Apply the icon color to all paths
+    });
+}
 
-    // Helper: Apply styles to multiple selectors
+    //Apply styles to multiple selectors
     function applyStylesToSelectors(selectors, color) {
         selectors.forEach(selector => {
             document.querySelectorAll(selector).forEach(element => {
