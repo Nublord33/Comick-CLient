@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Comick Client",
+  "version": "0.1",
+  "description": "Comick Client (Alpha)",
+  "author": "Nublord33/SkibidiSKid",
+  "permissions": ["storage"],
+  "host_permissions": ["https://comick.io/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://comick.io/*"],
+      "js": ["src/bg-script.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
