@@ -1,6 +1,12 @@
 # Comick-CLient
 this project is currently in alpha this project will be fully released by 06/21/2025 which is the summer solstice and also my birthday 
 
+# Branches
+
+there are 2 branches(for now) 
+the main bracnh is the userscript  you can download it and use it at: https://greasyfork.org/en/scripts/531623-comick-client
+the extension branch is the chrome extension to use it download this repo adn follow this guide https://www.youtube.com/watch?v=xiT8c8M1OIw
+
 ### Manditory Roadmap
 - [ ] More efficient styling
 - [ ] Reduce file sizes
